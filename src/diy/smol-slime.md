@@ -17,8 +17,8 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
 
 ### Tracker
 * **SuperMini nRF52840** (Cheapest) or **Seeed Studio XIAO nRF52840** (Smaller, but very expensive)
-* Compatible **IMU/IMU Breakout Board**
-    * BMI270
+* Compatible **Inertial Measurement Unit/IMU Breakout Board**
+    * BMI270 (IMU Wake on Motion Unfinished)
     * ICM-42688-P
     * ICM-42688-V
     * ICM-45686
@@ -28,12 +28,12 @@ Interested, have questions, or issues with this project? Chat with us in ***#smo
     * LSM6DSV
     * LSM6DSV16B
     * ISM330BX
-* Compatible **Mags** (Optional)
-    * BMM150 (not tested)
-    * BMM350 (not tested)
+* Compatible **Magnetometer** (Optional)
+    * BMM150 (Not Tested)
+    * BMM350 (Not Tested)
     * IIS2MDC
     * LIS2MDL
-    * LIS3MDL (not tested)
+    * LIS3MDL (Not Tested)
     * MMC5983MA
 * **Push Button/Momentary Switch** (One is recommended for Resetting, Pairing, Calibration, Sleep, putting the tracker in DFU mode for firmware. A second can be used to separate the original Reset functions from the other features.) A tweezer can be used to short the pins for the initial tracker setup instead.
 * **Slide Switch** - Recommended, but optional. Allowing you to turn on/off your tracker. Deep sleep by holding down the push button puts the tracker in a very low power state (not completely off).
@@ -171,9 +171,14 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 ##### Method 2: Button
 1. Press your Reset or SW0 (Functional) button twice and leave the tracker still on a flat surface for a few seconds.
 
-#### 6-Sided
+#### 6-Side
 1. Make sure the power switch is on. (So the tracker can run on battery when unplugged.)
-1. 6-Sided Calibration will start the first time the tracker loads up after flashing new firmware. It can be redone by using the ```6-side``` command in console. (At the moment, there is no button press combination to start this calibration.)
+1. Open nRF Connect for Desktop.
+1. Open Serial Terminal from nRF Connect.
+1. Ensure your tracker is connected to your computer via cable.
+1. On the top left corner, select your tracker under Devices.
+1. Click the "Connect to Port" button.
+1. Enter ```6-side``` command in console. (At the moment, there is no button press combination to start this calibration.)
 1. Follow the console log on rotating sides on a flat surface. Leave the cable side for last.
 1. When prompted for the last side, unplug your USB cable and place the side with the USB port onto the flat surface.
 1. Wait a bit until calibration is complete.
@@ -185,13 +190,13 @@ Once trackers are paired, the LED should stop blinking once per sec. To exit pai
 1. Click the "Connect to Port" button.
 1. Enter ```clear``` to unpair all of your trackers from the Receiver.
 1. Enter ```pair``` to enter pairing mode on your Receiver.
-1. Connect a tracker to your computer via USB cable and make sure the power switch is on. (So the tracker can run on battery when unplugged for 6-sided calibration.)
+1. Connect a tracker to your computer via USB cable and make sure the power switch is on. (So the tracker can run on battery when unplugged for 6-Side calibration.)
 1. Select your tracker from the Device List.
 1. Click the "Connect to Port" button.
 1. Enter ```dfu``` to go into DFU Mode.
 1. Copy the UF2 file onto your tracker.
-1. 6-sided calibration will start right away (this can be redone with ```6-side``` command if needed.)
-1. After 6-sided calibration, enter ```calibrate``` to calibrate the ZRO.
+1. Enter ```6-side``` to start 6-Side calibration.
+1. After 6-Side calibration, enter ```calibrate``` to calibrate the ZRO.
 1. Enter ```pair``` to enter pairing mode.
 1. Wait for the tracker to pair to the Receiver, and then disconnect.
 1. Repeat process for all trackers.
