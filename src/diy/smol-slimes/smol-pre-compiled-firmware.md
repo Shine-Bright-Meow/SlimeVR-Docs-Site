@@ -21,6 +21,7 @@ You only need the following if you are using precompiled firmware:
 | Device       | Download                                                                                                                             |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
 | Nordic/eByte | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_Nordic_eByte_Dongle.hex) |
+| Holyiot      | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Holyiot_Dongle_Receiver.hex) |
 | SuperMini    | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_SuperMini.uf2)           |
 | XIAO         | [Link](https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Receiver_XIAO.uf2)                |
 
@@ -81,16 +82,16 @@ You only need the following if you are using precompiled firmware:
       <td>🥪</td>
       <td>✅</td>
       <td>✅</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SuperMiniStacked.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_SuperMiniStacked.uf2">Link</a></td>
+      <td><a href="https://github.com/LyallUlric/Stacked-SmolSlime/releases" target="_blank">Link</a></td>
+      <td><a href="https://github.com/LyallUlric/Stacked-SmolSlime/releases" target="_blank">Link</a></td>
   </tr>
   <tr>
       <td>SuperMini</td>
       <td>🥪</td>
       <td>✅</td>
       <td>✖️</td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_NoSleep_SuperMiniStacked.uf2">Link</a></td>
-      <td><a href="https://github.com/Shine-Bright-Meow/SlimeNRF-Firmware-CI/releases/download/latest/SlimeNRF_Tracker_SW0_NoSleep_SuperMiniStacked.uf2">Link</a></td>
+      <td><a href="https://github.com/LyallUlric/Stacked-SmolSlime/releases" target="_blank">Link</a></td>
+      <td><a href="https://github.com/LyallUlric/Stacked-SmolSlime/releases" target="_blank">Link</a></td>
   </tr>
   <tr>
       <td>XIAO</td>

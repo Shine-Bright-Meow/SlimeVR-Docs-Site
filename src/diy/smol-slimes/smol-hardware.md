@@ -5,9 +5,15 @@
 
 ## 🧾 Schematics
 
+### I2C
 | Default SuperMini Build                                                                                                                                         | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                            |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <a href="../../assets/img/smol_slime_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_schematic.png" class="caseImage" alt="Smol Slime Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_schematic.png" class="caseImage" alt="Smol Slime (Stacked 🥪) Schematic"></a> |
+| <a href="../../assets/img/smol_slime_i2c_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_i2c_schematic.png" class="caseImage" alt="Smol Slime I2C Schematic"></a> | <a href="../../assets/img/smol_slime_stacked_i2c_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_i2c_schematic.png" class="caseImage" alt="Smol Slime (Stacked 🥪) I2C Schematic"></a> |
+
+### SPI
+| Default SuperMini Build                                                                                                                                         | Stacked 🥪 SuperMini Build[^note]                                                                                                                                                            |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="../../assets/img/smol_slime_spi_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_spi_schematic.png" class="caseImage" alt="Smol Slime SPI Schematic (Work in progress)"></a> | <a href="../../assets/img/smol_slime_stacked_spi_schematic.png" target="_blank"><img src="../../assets/img/smol_slime_stacked_spi_schematic.png" class="caseImage" alt="Smol Slime (Stacked 🥪) SPI Schematic"></a> |
 
 [^note]: Requires special firmware that supplies power from the GPIO pins. <a href="https://youtu.be/qTmIfa_Asic" target="_blank">YouTube Tutorial</a>
 
@@ -41,6 +47,13 @@ These dongles have a fairly optimized PCB antenna. If you have issues with signa
         It is available on AliExpress, with free shipping.<br />
         Also available on Alibaba, where sold by
         <strong>Chengdu Ebyte Electronic Technology Co., Ltd.</strong>
+      </td>
+    </tr>
+    <tr>
+      <td>Holyiot-21017</td>
+      <td>Most expensive dongle out of all available options. The Receiver has a Front-End Module (FEM)/Power Amification (PA) module which resolves almost all range/signal issues.</td>
+      <td>
+        It is available on <strong>AliExpress</strong> and <strong>Alibaba</strong>.
       </td>
     </tr>
     <tr>
@@ -183,6 +196,7 @@ Some of the supported sensor modules are described on the [IMU Comparison page](
    <span class="tooltip-text">Sensor driver has not been tested.</span>
   </div>
 - MMC5983MA
+- QMC6309
 
 ### 🟩 Sensor Modules with IMU and Magnetometer
 

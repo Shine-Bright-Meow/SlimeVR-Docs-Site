@@ -47,7 +47,7 @@ The device's LED should blink once every second.
 
 The device's LED should blink once every second.
 
-Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```reboot``` in the console, or press the left button once on the eByte Dongle, or the round white button once on the Nordic Dongle.
+Once the trackers are paired, the LED indicator should stop blinking once per second. To exit pairing mode on the Receiver, type ```exit``` in the console, or press the left button once on the eByte Dongle, or the round white button once on the Nordic Dongle.
 
 # Calibration
 
@@ -111,6 +111,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```list``` - Get paired devices
 * ```reboot``` - Soft reset the device
 * ```pair``` - Enter pairing mode
+* ```exit``` - Exit pairing mode
 * ```clear``` - Clear stored devices
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```uptime``` - Get device uptime
@@ -121,6 +122,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```reboot``` - Soft reset the device
 * ```calibrate``` - Calibrate sensor ZRO
 * ```6-side``` - Calibrate 6-side accelerometer
+* ```mag``` - Clear magnetometer calibration
 * ```pair``` - Enter pairing mode
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```uptime``` - Get device uptime

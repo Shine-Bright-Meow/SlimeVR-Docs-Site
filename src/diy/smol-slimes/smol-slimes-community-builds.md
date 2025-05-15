@@ -160,7 +160,7 @@ This page is dedicated only to builds that others can build themselves. Builds t
                     <span class="tooltip-text">401030 Battery</span>
                 </div>
             </td>
-            <td>✖️</td>
+            <td>✅</td>
         </tr>
         <tr>
             <td>Stacked SmolSlime</td>
