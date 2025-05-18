@@ -17,7 +17,7 @@ For Windows, there are similar tools available, such as <a href="https://www.chi
 ## Pairing Mode
 
 ```admonish warning
-**Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to reboot receivers and trackers after pairing. 
+**Disclaimer:** For trackers to appear on SlimeVR server for the first time it usually required to reboot receivers and trackers after pairing.
 Trackers appear in server list only after being moved.
 ```
 
@@ -124,6 +124,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```6-side``` - Calibrate 6-side accelerometer
 * ```mag``` - Clear magnetometer calibration
 * ```pair``` - Enter pairing mode
+* ```clear``` - Clear pairing data
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```uptime``` - Get device uptime
 * ```meow``` - Meow!
