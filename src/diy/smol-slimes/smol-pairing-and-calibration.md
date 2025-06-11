@@ -111,7 +111,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```list``` - Get paired devices
 * ```reboot``` - Soft reset the device
 * ```pair``` - Enter pairing mode
-* ```add <address>``` - Manually add a device
+* ```add <address>``` - Manually add a device (Receiver's ```set``` command must be completed first)
 * ```remove``` - Remove last paired device
 * ```exit``` - Exit pairing mode
 * ```clear``` - Clear stored devices
@@ -122,6 +122,7 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 ## Tracker
 * ```info``` - Get device information
 * ```reboot``` - Soft reset the device
+* ```scan``` - Restart sensor scan
 * ```calibrate``` - Calibrate sensor ZRO
 * ```6-side``` - Calibrate 6-side accelerometer
 * ```mag``` - Clear magnetometer calibration
@@ -130,14 +131,15 @@ Note: The LED will blink when you place it flat on each side and will blink cont
 * ```clear``` - Clear pairing data
 * ```dfu``` - Enter DFU bootloader (only available if your device has one)
 * ```uptime``` - Get device uptime
+* ```debug``` - Print debug log to troubleshoot tracker or firmware
 * ```meow``` - Meow!
 
 # Button
 * Reset - 1 Press
 * Calibration - 2 Presses
-* Pairing Mode - 3 Presses
+* Pairing Mode - Press and Hold for 5s
 * DFU Bootloader - 4 Presses
-* Deep Sleep - Press and Hold
+* Deep Sleep - Press and Hold for 1s
 
 # Status Codes
 
