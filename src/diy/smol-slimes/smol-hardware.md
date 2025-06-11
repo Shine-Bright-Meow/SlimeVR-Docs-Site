@@ -215,6 +215,11 @@ Buttons and slide switches are recommended but not required. Buttons can be adde
   <tbody>
     <tr>
       <td>
+        <span id="SuperMini">
+          SuperMini nRF52840
+        </span>
+      </td>
+      <td>
         A clone of the <strong>nice!nano</strong> board. Cheapest option overall.
         <br/> Signal strength can be improved with antenna mod.
       </td>
